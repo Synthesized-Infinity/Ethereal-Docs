@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Lightweight',
     description: (
       <>
-        Ethreal is designed to be a lightweight language with a small footprint
+        Ethereal is designed to be a lightweight language with a small footprint
       </>
     ),
   },
