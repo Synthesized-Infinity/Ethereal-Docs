@@ -23,7 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Synthesized-Infinity/Ethereal-Docs/tree/master/docs/',
+          editUrl: 'https://github.com/Synthesized-Infinity/Ethereal-Docs/tree/master/',
         },
         blog: {
           showReadingTime: true,
