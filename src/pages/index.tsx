@@ -41,7 +41,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Documentation for the Ethereal">
         <Head>
           <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
           <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
