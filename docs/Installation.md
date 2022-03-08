@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Installaion
+# Installation
 
 Currently, the only way to install the package is to build it from source.
 
