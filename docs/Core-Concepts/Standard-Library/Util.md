@@ -18,4 +18,14 @@ length("Hello, world!"); // returns 13
 length([1, 2, 3]); // returns 3
 ```
 
+## input(prompt)
+
+Reads a line of input from the user. The prompt is optional.
+If prompt is provided, it is displayed to the user.
+
+Example:
+
+```etrl
+set x = input("Enter a number: ");
+```
 
