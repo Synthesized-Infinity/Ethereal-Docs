@@ -47,3 +47,14 @@ set arr = [1, 2, 3];
 tail(arr);
 ```
 
+## includes(array, value)
+
+Checks if the array contains the value.
+
+Example:
+```etrl
+set arr = [1, 2, 3];
+includes(arr, 2); // Returns true
+includes(arr, 4); // Returns false
+```
+
