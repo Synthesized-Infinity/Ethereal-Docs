@@ -85,10 +85,12 @@ is_string(1) // false
 
 ## Modules and Imports
 
-To include a module, use the `include` keyword followed by the module name as a string.
+To include a module, use the `include` keyword followed by the module filename, standard library name, or a URL.
 
 ```etrl
 include "./my_module";
+include "std::math";
+include "https://raw.githubusercontent.com/Synthesized-Infinity/Ethereal/main/examples/math.etrl";
 ```
 
 Etheral will import all functions from the module to the current scope.
