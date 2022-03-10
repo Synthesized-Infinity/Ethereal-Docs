@@ -17,7 +17,7 @@ The Addition Operator "+" is used to add numbers or strings
 ```etrl
 set x = 1;
 set y = 2;
-set z = x+y; // Performs arithmetic addition
+set z = x + y; // Performs arithmetic addition
 
 put(z);   // Prints 3
 ```
@@ -29,7 +29,7 @@ The Subtraction Operator "-" is used to add numbers or strings
 ```etrl
 set x = 4;
 set y = 2;
-set z = x-y; // Performs arithmetic subtraction
+set z = x - y; // Performs arithmetic subtraction
 
 put(z);   // Prints 2
 ```
@@ -41,7 +41,7 @@ The Multiplication Operator "\*" is used to add numbers or strings
 ```etrl
 set x = 4;
 set y = 5;
-set z = x*y; // Performs arithmetic multiplication
+set z = x * y; // Performs arithmetic multiplication
 
 put(z);   // Prints 20
 ```
@@ -53,22 +53,26 @@ The Division Operator "/" is used to add numbers or strings
 ```etrl
 set x = 10;
 set y = 4;
-set z = x/y; // Performs arithmetic division
+set z = x / y; // Performs arithmetic division
 
 put(z);   // Prints 2.5
 ```
 
 ## Logical Operators
 
+### Equality Operator
+
 The "==" operator returns true if the two operands are equal, else returns false
 
 ```etrl
 set x = 10;
 set y = 4;
-set z = x==y; // Performs equality comparison
+set z = x == y; // Performs equality comparison
 
 put(z);   // Prints false
 ```
+
+### Less/Greater Than Operator
 
 The "<" and ">" operators respectively check if first operand is less than or greater than the second operator
 
@@ -76,14 +80,16 @@ The "<" and ">" operators respectively check if first operand is less than or gr
 set x = 10;
 set y = 4;
 
-set z = x<y; // Performs less than comparison and assigns the value to z
+set z = x < y; // Performs less than comparison and assigns the value to z
 
 put(z);   // Prints false
 
-set z = x>y;  // Performs greater than comparison and assigns the value to z
+set z = x > y;  // Performs greater than comparison and assigns the value to z
 
 put(z);   // Prints true
 ```
+
+### LessEqual/GreaterEqual Operator
 
 The "<=" and ">=" operators respectively check if first operand is less than equal to or greater than equal to the second operator
 
@@ -102,17 +108,30 @@ set z = x>=y;  // Performs greater than equal to comparison and assigns the valu
 put(z);   // Prints true
 ```
 
+### Tide/In Operator
+
 The "~" operator returns true if a certain key is present in an object else, returns false
 
 ```etrl
-set maintainers = [
-  {name:"Alen", age:18 },
-  {name:"Prajjwal", age:21 },
-  {name:"Shubham", age:20 },
-  {name:"Ganesh", age:21 }
-];
+set maintainers = {
+  "Alen": {
+    "age": 18
+  },
+  "Prajjwal": {
+    "age": 21
+  },
+  "Shubham": {
+    "age": 20
+  },
+  "Ganesh": {
+    "age": 21
+  }
+};
 
-set z = {name:"Bilal", age:18} ~ maintainers;
+set is_maintainer = fun (name) {
+  return name ~ maintainers;
+};
 
-put(z);   // Prints false
+put(is_maintainer("Shubham")); // Prints true
+put(is_maintainer("Bilal")); // Prints false
 ```
