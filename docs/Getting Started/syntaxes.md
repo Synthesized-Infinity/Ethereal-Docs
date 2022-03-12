@@ -89,7 +89,7 @@ To include a module, use the `include` keyword followed by the module filename, 
 
 ```etrl
 include "./my_module";
-include "std::math";
+include "std:math";
 include "https://raw.githubusercontent.com/Synthesized-Infinity/Ethereal/main/examples/math.etrl";
 ```
 

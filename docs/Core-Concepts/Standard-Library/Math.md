@@ -6,7 +6,7 @@ sidebar_position: 6
 
 `std:math` is a collection of functions that operate on numbers.
 
-## random(min?, max?)
+## `random(min?, max?)`
 
 Returns a random number between `min` and `max`.
 
@@ -15,7 +15,7 @@ Example:
 random(1, 10);
 ```
 
-## round(number)
+## `round(number)`
 
 Round the given number to the nearest integer.
 
@@ -24,7 +24,7 @@ Example:
 round(3.14) // returns 3
 ```
 
-## floor(number)
+## `floor(number)`
 
 Given a number, returns the largest integer that is less than or equal to the given number.
 
@@ -33,7 +33,7 @@ Example:
 floor(10.2) // returns 10
 ```
 
-## ceil(number)
+## `ceil(number)`
 
 Given a number, returns the smallest integer that is greater than or equal to the given number.
 
@@ -42,7 +42,7 @@ Example:
 ceil(10.2) // returns 11
 ```
 
-## abs(number)
+## `abs(number)`
 
 Returns the absolute value of the number.
 
@@ -51,7 +51,7 @@ Example:
 abs(-10) // returns 10
 ```
 
-## sqrt(number)
+## `sqrt(number)`
 
 Returns the square root of the number.
 
@@ -59,3 +59,7 @@ Example:
 ```etrl
 sqrt(9) // returns 3
 ```
+
+## `MIN_INT` and `MAX_INT`
+
+The minimum and maximum integer values that can be represented by Ethereal

@@ -18,7 +18,7 @@ length("Hello, world!"); // returns 13
 length([1, 2, 3]); // returns 3
 ```
 
-## input(prompt)
+## `input(prompt)`
 
 Reads a line of input from the user. The prompt is optional.
 If prompt is provided, it is displayed to the user.
@@ -29,3 +29,14 @@ Example:
 set x = input("Enter a number: ");
 ```
 
+## `sleep(milliseconds)`
+
+Pauses the execution of the program for the given number of milliseconds.
+
+Example:
+
+```etrl
+put("Sleeping for 3 seconds...");
+sleep(3000);
+put("Done!");
+```

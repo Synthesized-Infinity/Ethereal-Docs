@@ -6,7 +6,7 @@ sidebar_position: 5
 
 `std:string` is a collection of functions that operate on strings.
 
-## replace()
+## `replace()`
 
 Replaces all occurrences of the given string with the given replacement.
 

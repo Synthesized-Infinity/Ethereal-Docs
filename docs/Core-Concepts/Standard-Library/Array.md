@@ -6,7 +6,7 @@ sidebar_position: 4
 
 `std:array` is a collection of functions that operate on arrays.
 
-## push(array, value) 
+## `push(array, value)`
 
 Adds an element to the end of the array.
 
@@ -17,7 +17,7 @@ set arr = [1, 2, 3];
 anew arr = push(arr, 4);
 ```
 
-## pop(array)
+## `pop(array)`
 
 Removes the last element of the array and returns it.
 
@@ -27,7 +27,7 @@ set arr = [1, 2, 3];
 pop(arr);
 ```
 
-## head(array)
+## `head(array)`
 
 Returns the first element of the array.
 
@@ -37,7 +37,7 @@ set arr = [1, 2, 3];
 head(arr);
 ```
 
-## tail(array)
+## `tail(array)`
 
 Removes the first element of the array and returns the rest.\
 
@@ -47,7 +47,7 @@ set arr = [1, 2, 3];
 tail(arr);
 ```
 
-## includes(array, value)
+## `includes(array, value)`
 
 Checks if the array contains the value.
 
