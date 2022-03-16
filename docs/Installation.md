@@ -2,9 +2,11 @@
 sidebar_position: 2
 ---
 
-# Installation
+## Installation
 
-## Download The Latest Version
+### Install Ethereal
+
+#### Download The Latest Version
 
 1. Get the executable https://github.com/Synthesized-Infinity/Ethereal/releases/latest/
 
@@ -22,12 +24,15 @@ sidebar_position: 2
         # Add the executable to the PATH of the current user.
         export PATH=$PATH:$HOME/Ethereal
         ```
-## Prerequisites
+
+### Building from Source
+
+#### Prerequisites
 
 * [Rust](https://www.rust-lang.org/)
 * [cargo](https://crates.io/crates/cargo)
 
-## Building
+#### Building
 
 1. Clone the repository
 
