@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# json
+# Json
 
 `std:json` is a collection of functions that operate on JSON.
 
