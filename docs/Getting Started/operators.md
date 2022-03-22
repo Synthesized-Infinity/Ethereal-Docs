@@ -135,3 +135,58 @@ set is_maintainer = fun (name) {
 put(is_maintainer("Shubham")); // Prints true
 put(is_maintainer("Bilal")); // Prints false
 ```
+### Bitwise Operators
+
+### Left Shift Operator
+
+The "<<" operator shifts the bits of the left operand to the left by the number of bits specified in the right operand.
+
+```etrl
+set x = 10;
+set y = 2;
+set z = x << y; // Performs left shift
+put(z);   // Prints 40
+
+### Right Shift Operator
+
+The ">>" operator shifts the bits of the left operand to the right by the number of bits specified in the right operand.
+
+```etrl
+set x = 20
+set y = 2
+set z = x >> y; // Performs right shift
+put(z);   // Prints 5
+```
+### Bitwise AND Operator
+
+"&" operator performs bitwise AND operation on two operands.
+
+```etrl
+set x = 120;
+set y = 15;
+set z = x & y; // Performs bitwise AND
+put(z);   // Prints 8
+```
+### Bitwise OR Operator
+
+"|" operator performs bitwise OR operation on two operands.
+
+```etrl
+set x = 240;
+set y = 15;
+set z = x | y; // Performs bitwise OR
+put(z);   // Prints 255
+```
+
+### Bitwise XOR Operator
+
+The "^" operator performs bitwise XOR operation on two operands.
+
+```etrl
+set x = 360;
+set y = 20;
+set z = x ^ y; // Performs bitwise XOR
+put(z);   // Prints 380
+```
+
+
