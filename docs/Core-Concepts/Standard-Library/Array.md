@@ -10,7 +10,7 @@ sidebar_position: 4
 
 Adds an element to the end of the array.
 
-Example:
+**Example:**
 
 ```etrl
 set arr = [1, 2, 3];
@@ -21,7 +21,7 @@ anew arr = push(arr, 4);
 
 Removes the last element of the array and returns it.
 
-Example:
+**Example:**
 ```etrl
 set arr = [1, 2, 3];
 pop(arr);
@@ -31,7 +31,7 @@ pop(arr);
 
 Returns the first element of the array.
 
-Example:
+**Example:**
 ```etrl
 set arr = [1, 2, 3];
 head(arr);
@@ -41,7 +41,7 @@ head(arr);
 
 Removes the first element of the array and returns the rest.\
 
-Example:
+**Example:**
 ```etrl
 set arr = [1, 2, 3];
 tail(arr);
@@ -51,7 +51,7 @@ tail(arr);
 
 Checks if the array contains the value.
 
-Example:
+**Example:**
 ```etrl
 set arr = [1, 2, 3];
 includes(arr, 2); // Returns true

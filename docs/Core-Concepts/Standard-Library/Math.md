@@ -10,7 +10,7 @@ sidebar_position: 6
 
 Returns a random number between `min` and `max`.
 
-Example:
+**Example:**
 ```etrl
 random(1, 10);
 ```
@@ -19,7 +19,7 @@ random(1, 10);
 
 Round the given number to the nearest integer.
 
-Example:
+**Example:**
 ```etrl
 round(3.14) // returns 3
 ```
@@ -28,7 +28,7 @@ round(3.14) // returns 3
 
 Given a number, returns the largest integer that is less than or equal to the given number.
 
-Example:
+**Example:**
 ```etrl
 floor(10.2) // returns 10
 ```
@@ -37,7 +37,7 @@ floor(10.2) // returns 10
 
 Given a number, returns the smallest integer that is greater than or equal to the given number.
 
-Example:
+**Example:**
 ```etrl
 ceil(10.2) // returns 11
 ```
@@ -46,7 +46,7 @@ ceil(10.2) // returns 11
 
 Returns the absolute value of the number.
 
-Example:
+**Example:**
 ```etrl
 abs(-10) // returns 10
 ```
@@ -55,7 +55,7 @@ abs(-10) // returns 10
 
 Returns the square root of the number.
 
-Example:
+**Example:**
 ```etrl
 sqrt(9) // returns 3
 ```

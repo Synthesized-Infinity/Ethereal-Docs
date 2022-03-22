@@ -11,7 +11,7 @@ Ethereal has a number of data types that can be used to store and manipulate dat
 * Strings are a sequence of characters.
 * They are enclosed in double quotes.
 
-Example:
+**Example:**
 
 ```etrl
 "Hello, world!" // String
@@ -24,7 +24,7 @@ Example:
     * Integers are whole numbers.
     * Floating point numbers are numbers with a decimal point.
 
-Example:
+**Example:**
 
 ```etrl
 1 // Integer
@@ -35,7 +35,7 @@ Example:
 
 * Booleans are either true or false.
 
-Example:
+**Example:**
 
 ```etrl
 true // Boolean
@@ -52,7 +52,7 @@ false //Boolean
     * Arrays are zero-based.
     * The first element in an array is at index 0.
 
-Example:
+**Example:**
 ```
 [1, 2, 3] // Array
 ["Hello", "world"] // Array
@@ -65,7 +65,7 @@ Example:
 * They can contain any type of data.
 * Objects can be indexed by their name.
 
-Example:
+**Example:**
 ```
 {
     "name": "John",

@@ -16,7 +16,7 @@ They are:
 
 Standard Libraries can be imported using the `include` keyword followed by the name of the library.
 
-Example:
+**Example:**
 
 ```etrl
 include "std:util";

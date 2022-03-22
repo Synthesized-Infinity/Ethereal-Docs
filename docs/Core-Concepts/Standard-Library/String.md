@@ -10,7 +10,7 @@ sidebar_position: 5
 
 Replaces all occurrences of the given string with the given replacement.
 
-Example:
+**Example:**
 
 ```etrl
 replace("Hello, world!", "world", "Ethereal");
@@ -20,7 +20,7 @@ replace("Hello, world!", "world", "Ethereal");
 
 Converts the given value to a string.
 
-Example:
+**Example:**
 
 ```etrl
 to_string(123); // returns "123"

@@ -11,7 +11,7 @@ sidebar_position: 7
 
 Send an HTTP request.
 
-Example:
+**Example:**
 
 ```etrl
 include "std:http";

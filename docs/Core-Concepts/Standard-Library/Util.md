@@ -11,7 +11,7 @@ sidebar_position: 2
 A function that returns the length of the given string or array.
 Throws an error if the given value is not a string or array.
 
-Example:
+**Example:**
 
 ```etrl
 length("Hello, world!"); // returns 13
@@ -23,7 +23,7 @@ length([1, 2, 3]); // returns 3
 Reads a line of input from the user. The prompt is optional.
 If prompt is provided, it is displayed to the user.
 
-Example:
+**Example:**
 
 ```etrl
 set x = input("Enter a number: ");
@@ -33,7 +33,7 @@ set x = input("Enter a number: ");
 
 Pauses the execution of the program for the given number of milliseconds.
 
-Example:
+**Example:**
 
 ```etrl
 put("Sleeping for 3 seconds...");

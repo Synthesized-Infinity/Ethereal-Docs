@@ -1,5 +1,5 @@
 Prism.languages.etrl = Prism.languages.extend('clike', {
-    keyword: /\b(?:if|else|include|set|anew|fun|return|typeof)\b/,
+    keyword: /\b(?:if|else|include|set|anew|fun|return|typeof|loop|break|continue)\b/,
     operator: /\+|-|\*|\/|%|=|!|<|>|&|\||\^|~|\?|:|;/,
     number: /\b(?:0x[\da-f]+|\d+(?:\.\d+)?(?:e[+-]?\d+)?)\b/i,
     string: {

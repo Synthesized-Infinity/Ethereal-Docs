@@ -10,7 +10,7 @@ sidebar_position: 3
 
 This function reads the contents of a file and returns it as a string.
 
-Example:
+**Example:**
 ```etrl
 read_file("path/to/file.txt");
 ```
@@ -18,7 +18,7 @@ read_file("path/to/file.txt");
 
 Write the given string to the given file.
 
-Example:
+**Example:**
 ```etrl
 write_file("path/to/file.txt", "Hello, world!");
 ```
@@ -27,7 +27,7 @@ write_file("path/to/file.txt", "Hello, world!");
 
 Checks if the given file exists. Returns `true` if it does, `false` otherwise.
 
-Example:
+**Example:**
 ```etrl
 file_exists("path/to/file.txt");
 ```

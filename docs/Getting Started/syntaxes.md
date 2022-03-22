@@ -67,6 +67,25 @@ if (x > y) {
 `else` block is optional.
 :::
 
+## Loop 
+
+Loops are supported. To define a loop, use the `loop` keyword.
+Use the `break` keyword to exit the loop. To continue the loop, use the `continue` keyword (optional)
+
+```etrl
+
+set i = 0;
+
+loop {
+    if (i > 10) {
+        break;
+    }
+    put(i);
+    anew i = i + 1;
+    // continue;
+}
+```
+
 ## Type Checking
 
 Ethereal supports runtime type checking.
