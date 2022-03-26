@@ -147,7 +147,7 @@ set y = 2;
 set z = x << y; // Performs left shift
 put(z);   // Prints 40
 
-### Right Shift Operator
+### Left Shift Operator
 
 The ">>" operator shifts the bits of the left operand to the right by the number of bits specified in the right operand.
 
